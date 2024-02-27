@@ -1,0 +1,23 @@
+<html  lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ProvaController</title>
+</head>
+<body>
+<div>
+    <h1>First Controller Spring Boot</h1>
+    <h2>Primo Metodo</h2>
+    <p>Questa e il contentu di Var Message e Spring che se trove nell Controller : </p>
+    <span style="color:Red;" th:text="${messageOne} + ' Spring= ' +  ${spring}" ></span>>
+    <h2>Secondo Metodo</h2>
+    <span style="color:blue" th:text="${welcomeMessage}"></span>
+    <p>Questa e il contentu di Var Message e Spring che se trove nell Controller : </p>
+    <span style="color:Red;" th:text="${messageTwo} " ></span>
+    <h2>Terzo Metodo</h2>
+    <p>Questa e il contentu di Var Message e Spring che se trove nell Controller : </p>
+    <span style="color:Red;" th:text="${messageThree}" ></span>
+</div>
+
+</body>
+</html>

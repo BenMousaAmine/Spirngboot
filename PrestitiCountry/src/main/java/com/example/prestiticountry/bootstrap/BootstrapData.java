@@ -23,7 +23,7 @@ public class BootstrapData implements CommandLineRunner {
     private Integer[] getDataArray(String dataCorrenteStringa) {
         //1-Nov-2011
         dataCorrenteStringa = dataCorrenteStringa.toLowerCase() ;
-        // dividere la data in array con 3 elementi 1  *-* nov *-* 2011
+        // dividere la data in array con 3 elementi     FORMAT :    1  *-* nov *-* 2011
         String [] stringArray = dataCorrenteStringa.split("-");
         Integer [] integerArray = new Integer[3];
         integerArray[0]=Integer.parseInt(stringArray[0]);
